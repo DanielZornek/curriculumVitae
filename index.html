@@ -24,12 +24,22 @@
     h6 {
       font-family: "Roboto", sans-serif
     }
+
+    .dark{
+      background-color: black;
+      color: white;
+      transition: .3s ease-in-out;
+    }
+
   </style>
 
 </head>
 
 <body class="w3-light-grey" cz-shortcut-listen="true">
-
+  
+  <button id="buttonTheme">
+    Muda
+  </button>
   <!-- Page Container -->
   <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
@@ -182,7 +192,7 @@
             </ul>
 
             <h5 class="w3-opacity"><b>SENAI Alfried Krupp</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Janeiro 2023 - Março 2023</h6>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Janeiro 2023 - Atual</h6>
             <ul>
               <li>Curso - Eletricista Instalador (160hrs)</li>
               <li>Curso - Implantação de Inteligência Artificial em Nuvem Microsoft AI-900 (40hrs)</li>
@@ -249,6 +259,7 @@
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </footer>
 
+  <script src="script.js" defer></script>
 </body>
 
 </html>
